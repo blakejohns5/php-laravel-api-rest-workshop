@@ -14,5 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    
     return view('welcome');
+
+});
+
+Route::get('/greeting', function () {
+    echo 'Hello World! & Hola Mundo!';
 });

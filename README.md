@@ -11,3 +11,10 @@ https://github.com/assembler-institute/php-laravel-api-rest-workshop
 
 
 - For basic information about setting up the Laravel project, see branch for Part One - Basic
+
+### Routes ###
+
+You can replace all the routes in a path (for example, /categories) with one line:
+```
+Route::apiResource('categories', CategoriesController::class);
+```

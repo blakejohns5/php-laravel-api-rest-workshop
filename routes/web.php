@@ -14,11 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    
     return view('welcome');
-
 });
 
-Route::get('/greeting', function () {
-    echo 'Hello World! & Hola Mundo!';
-});
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
+
+require __DIR__.'/auth.php';

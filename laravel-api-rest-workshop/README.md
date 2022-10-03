@@ -470,7 +470,7 @@ It will now update.
 
 <hr><br>
 
-## **CRUD: Creating a reource for Product Model** ##
+## **CRUD: Creating a resource for Product Model** ##
 
 If you want to create a controller without the methods added, you can simply enter the command without the --api -m flags.
 
